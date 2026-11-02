@@ -1,6 +1,18 @@
 # Chess
 
-A simple Java Chess game project.
+A simple console-based Java chess game.
+
+## Build and run
+
+Requires Java 17 or newer.
+
+```bash
+mkdir -p out
+javac -d out src/main/java/com/kuurrooko/chess/ChessGame.java
+java -cp out com.kuurrooko.chess.ChessGame
+```
+
+Enter moves as two squares, such as `e2 e4`. Type `quit` to exit.
 
 ## How to Play
 
